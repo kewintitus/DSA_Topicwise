@@ -9,6 +9,7 @@ class Solution:
                 else:
                     ref[nums[i]] = i
                 i -=1
+            print(ref)
             return nums
     
 sol = Solution()
